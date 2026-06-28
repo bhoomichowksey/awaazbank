@@ -1,0 +1,63 @@
+# AwaazBank — Sample Conversation Flow
+# This shows a complete onboarding in Bhojpuri/Hindi
+
+=== USER SENDS VOICE NOTE ===
+🎙 "Hum SBI mein khata kholna chahtat hain"
+   (Translation: "I want to open an account in SBI")
+
+=== AWAAZBANK RESPONDS (voice) ===
+🤖 "Namaste! Main AwaazBank hun, SBI ka AI sahayak.
+    Khata kholne mein aapki madad karunga.
+    Aap kaun sa khata kholna chahte hain?
+    Savings Account ya Jan Dhan Account?"
+   (Translation: "Hello! I'm AwaazBank, SBI's AI assistant.
+    I'll help you open an account.
+    Which account do you want?
+    Savings Account or Jan Dhan Account?")
+
+=== USER SENDS VOICE NOTE ===
+🎙 "Jan Dhan khata chahiye"
+   (Translation: "I want Jan Dhan account")
+
+=== AWAAZBANK RESPONDS (voice) ===
+🤖 "Bahut achha! Jan Dhan khata ke liye
+    aapka Aadhaar number batayein."
+   (Translation: "Great! Please tell me your
+    Aadhaar number for Jan Dhan account.")
+
+=== USER SENDS VOICE NOTE ===
+🎙 "1234 5678 9012"
+
+=== AWAAZBANK (sends OTP via UIDAI) ===
+🤖 "Dhanyawaad. Aapke Aadhaar se jude mobile par
+    OTP bheja gaya hai. Woh OTP batayein."
+   (Translation: "Thank you. An OTP has been sent to the
+    mobile linked to your Aadhaar. Please tell me that OTP.")
+
+=== USER SENDS VOICE NOTE ===
+🎙 "4 5 6 7 8 9"
+
+=== AWAAZBANK (OTP verified ✅) ===
+🤖 "OTP sahi hai! Ab ek selfie lijiye aur
+    WhatsApp par bhejiye."
+   (Translation: "OTP is correct! Now take a selfie
+    and send it on WhatsApp.")
+
+=== USER SENDS SELFIE IMAGE ===
+📸 [selfie photo]
+
+=== AWAAZBANK (liveness check ✅, account opened ✅) ===
+🤖 "Badhai ho Ramji ji! 🎉
+    Aapka SBI Jan Dhan khata khul gaya hai!
+    Account number hai: SBI87654321
+    IFSC code: SBIN0001234
+    Yeh number save kar lijiye."
+   (Translation: "Congratulations Ramji ji! 🎉
+    Your SBI Jan Dhan account is now open!
+    Account number: SBI87654321
+    IFSC code: SBIN0001234
+    Please save this number.")
+
+=== TOTAL TIME: ~4 minutes ===
+=== BRANCH VISIT REQUIRED: None ===
+=== TYPING REQUIRED: None ===
